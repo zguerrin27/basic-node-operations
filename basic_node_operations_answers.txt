@@ -1,0 +1,22 @@
+1.
+
+sort bash.js alphabetically organizes the file and returns it to the terminal.
+
+wc bash.js tells you the number of lines, words and characters in the file.
+
+uniq bash.js returns all of the lines but removes the duplicate lines.
+
+2.
+
+I ran sort commands.js | wc 
+it returned 45  119  1105
+first it sorts commands.js alphabetically, then counts the lines, words and characters in the sorts set, and returns it.
+
+6.
+
+function reverseString(inputString) {
+  console.log(inputString);
+  return inputString.split("").reverse().join("").split(" ").reverse().join(" ") ;
+}
+
+console.log(reverseString("I'm learning to program algorithms!"));
